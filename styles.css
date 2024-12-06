@@ -1,7 +1,7 @@
 :root{
-    --textcolor: #f6f8fd;
-    --linkcolor: #4aeee0;
-    --backgroundcolor: hsl(225, 19%, 45%);
+    --textcolor: #ac3b61;
+    --linkcolor: #123c69;
+    --backgroundcolor: #bab2b5;
 }
 
 *{
@@ -17,9 +17,59 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--backgroundcolor);
+    color: var(--textcolor);
 }
 
 a{
     color: var(--linkcolor);
     text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+}
+
+nav .left a{
+    color: var(--textcolor);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+nav .right a{
+    color: var(--textcolor);
+    margin: 0 10px
+}
+
+nav .right a:last-child{
+    color: var(--backgroundcolor);
+    background-color: var(--textcolor);
+    padding: 5px 15px;
+    border-radius: 5px
+}
+
+nav .right a span{
+    margin-left: 5px;
+}
+
+@media (max-width: 600px){
+    nav{
+        padding: 0 20px;
+    }
+
+    nav .right a{
+        font-size: 22px;
+    };
+
+    nav .right a:last-child{
+        color: var(--textcolor);
+        background-color: transparent;
+        padding: 0;
+    };
+
+    nav .right a span{
+        display: none;
+    }
 }
