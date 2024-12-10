@@ -163,6 +163,70 @@ nav .right a span{
     border-radius: 2px;
 }
 
+/*Section 3 - Projects*/
+
+.Projects-Section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.Projects-Section h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.Projects-Section .assurant{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+    flex: 8;
+}
+
+.Projects-Section .assurant .logo{
+    flex: 2;
+    display: flex;
+    justify-content: left;
+}
+
+.Projects-Section .hpcc{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+    flex: 8;
+}
+
+.Projects-Section .hpcc .logo{
+    flex: 2;
+    display: flex;
+    justify-content: left;
+}
+
+.Projects-Section .bsa{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+    flex: 8;
+}
+
+.Projects-Section .bsa .logo{
+    flex: 2;
+    display: flex;
+    justify-content: left;
+}
+
+
 @media (max-width:850px){
 /*Section 1 - Hero*/
     .Hero-Section .text h2{
