@@ -48,12 +48,13 @@
        <section class="Hero-Section">
          <div class="text">
             <h2>Hi, I'm Drew 🤝</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Quasi, voluptatem veritatis at culpa in modi vero totam 
-               commodi consequuntur, sapiente impedit quos quas voluptatibus 
-               aut, ad iste aliquam exercitationem natus cum molestias blanditiis 
-               assumenda? Ex, autem, natus consequuntur explicabo libero est 
-               cupiditate rem nemo nesciunt veniam ipsa aspernatur blanditiis hic.</p>
+            <p>
+               Hello! I'm a junior at Kennesaw State University, pursuing a 
+               degree in Information Technology with a concentration in Data Analytics 
+               and a minor in Math. While I’m currently building my practical experience, 
+               I have a strong passion for data-driven solutions and technology. I'm eager 
+               to apply my knowledge and grow through hands-on opportunities in the IT 
+               and analytics field. Welcome to my journey!</p>
             <div class="links">
                <a href="#skills">
                   <i class="fa-solid fa-code"></i>
@@ -79,11 +80,12 @@
        <section id="skills" class="Skills-Section">
          <h2>Skills</h2>
          <div class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Voluptate hic quidem ducimus impedit. Fugit molestiae quas dolore magnam 
-            tenetur quia cupiditate fuga aliquam facere recusandae quibusdam deleniti 
-            impedit inventore earum quaerat, eaque ex voluptas delectus veniam nulla 
-            ipsa fugiat quidem quis minima. Deserunt quis ipsam sequi quaerat atque unde et!
+            <b>Hard Skills:</b> Proficient in Python, Java, SQL, HTML, and CSS, with a 
+            strong foundation in data analytics and web development.<br />
+            <b>Soft Skills:</b> Fast learner with excellent communication, collaboration, 
+            and problem-solving abilities. Adaptable and skilled in visualization 
+            and interpersonal interactions, making me a valuable team player in dynamic 
+            environments.
          </div>
 
          <div class="cells">
@@ -170,22 +172,23 @@
          <h2>Contact</h2>
          <div class="group">
             <div class="text">
-               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero 
-               repudiandae consequuntur, ad alias dolore expedita nisi, incidunt 
-               consequatur, fuga vitae dolorum beatae. Laborum praesentium iusto, 
-               minus architecto repellendus deleniti distinctio veniam numquam error 
-               dicta voluptas quasi soluta! Vel molestias sit a minus assumenda 
-               suscipit eos error ipsam, deleniti dolor aut.
+               I'd love to hear from you! Whether you have questions, opportunities, 
+               or just want to connect, feel free to reach out. Please use the email 
+               form to get in touch, and I’ll respond as soon as possible. Looking forward 
+               to connecting!
             </div>
-            <form>
+            <form action="https://api.web3forms.com/submit" method="POST">
+               <input type="hidden" name="access_key" value="5e4568bd-d09d-4b36-9f9b-7bbc72cb9e41">
                <label for="name">Name</label>
-               <input type="text" id="name">
+               <input type="text" name="name" id="name">
 
                <label for="email">Email</label>
-               <input type="email" id="email">
+               <input type="email" name="email" id="email">
 
                <label for="message">Message</label>
-               <textarea id="message" cols="30" rows="10"></textarea>
+               <textarea id="message" name="message" cols="30" rows="10"></textarea>
+
+               <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
                <button type="submit">Send</button>
             </form>

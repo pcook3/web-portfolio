@@ -18,6 +18,8 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--backgroundcolor);
     color: var(--textcolor);
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 a{
@@ -256,16 +258,37 @@ nav .right a span{
 .Contact-Section .group form input,
 .Contact-Section .group form textarea{
     font-family: 'Poppins', sans-serif;
+    border: 2px solid var(--linkcolor);
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    resize: none;    
+}
 
+.Contact-Section .group form button{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: var(--linkcolor);
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    transition: .1s;
+}
 
-
-    
+.Contact-Section .group form button:hover{
+    filter:brightness(.9);
 }
 
 @media (max-width:850px){
 /*Section 1 - Hero*/
     .Hero-Section .text h2{
         font-size: 35px;
+    }
+/*Section 4 - Contact*/
+    .Contact-Section .group{
+        flex-direction: column;
     }
 }
 
@@ -277,6 +300,7 @@ nav .right a span{
         .Hero-Section .headshot img{
             width: 300px;
         }
+
     }
 
 @media (max-width: 650px){
@@ -322,6 +346,12 @@ nav .right a span{
     .Projects-Section{
         padding: 0 20px;
         flex-direction: column;
+    }
+
+    /*Section 4 - Contact*/
+
+    .Contact-Section .group{
+        padding: 0 20px;
     }
 
 }
