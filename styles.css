@@ -226,6 +226,41 @@ nav .right a span{
     justify-content: left;
 }
 
+/*Section 4 - Contact*/
+
+.Contact-Section{
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.Contact-Section h2{
+    font-size: 35px;
+}
+
+.Contact-Section .group{
+    display: flex;
+    gap: 50px;
+}
+
+.Contact-Section .group .text{
+    flex: 3;
+    margin-top: 20px;
+}
+
+.Contact-Section .group form{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-Section .group form input,
+.Contact-Section .group form textarea{
+    font-family: 'Poppins', sans-serif;
+
+
+
+    
+}
 
 @media (max-width:850px){
 /*Section 1 - Hero*/
@@ -281,4 +316,12 @@ nav .right a span{
     .Skills-Section .cells .cell span{
         font-size: 16px;
     }
+
+    /*Section 3 - Projects*/
+
+    .Projects-Section{
+        padding: 0 20px;
+        flex-direction: column;
+    }
+
 }
