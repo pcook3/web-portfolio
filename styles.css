@@ -294,6 +294,26 @@ nav .right a span{
 }
 
 @media (max-width:750px){
+
+    /*Navigation Bar*/
+    nav{
+        padding: 10px 20px;
+    }
+
+    nav .right a{
+        font-size: 22px;
+    }
+
+    nav .right a:last-child{
+        color: var(--textcolor);
+        background-color: transparent;
+        padding: 0;
+    }
+
+    nav .right a span{
+        display: none;
+    }
+
 /*Section 1 - Hero*/
     .Hero-Section{
         flex-direction: column-reverse;
@@ -335,24 +355,7 @@ nav .right a span{
     }
 
 @media (max-width: 650px){
-    /*Navigation Bar*/
-    nav{
-        padding: 10px 20px;
-    }
-
-    nav .right a{
-        font-size: 22px;
-    }
-
-    nav .right a:last-child{
-        color: var(--textcolor);
-        background-color: transparent;
-        padding: 0;
-    }
-
-    nav .right a span{
-        display: none;
-    }
+    
 
     /*Section 1 -Hero*/
     .Hero-Section{
