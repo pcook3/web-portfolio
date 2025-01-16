@@ -175,57 +175,58 @@ nav .right a span{
 .Projects-Section h2{
     text-align: center;
     font-size: 35px;
+    margin-bottom: 30px;
 }
 
 .Projects-Section .assurant{
     display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-    margin: 50px 0;
     align-items: center;
-    gap: 40px;
-    margin-bottom: 100px;
-    flex: 8;
+    gap: 50px;
 }
 
 .Projects-Section .assurant .logo{
     flex: 2;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+}
+
+.Projects-Section .assurant .text{
+    flex: 8;
+    margin-bottom: 30px;
 }
 
 .Projects-Section .hpcc{
     display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-    margin: 50px 0;
     align-items: center;
-    gap: 30px;
-    margin-bottom: 100px;
-    flex: 8;
+    gap: 50px;
 }
 
 .Projects-Section .hpcc .logo{
     flex: 2;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+}
+
+.Projects-Section .hpcc .text{
+    flex: 8;
+    margin-bottom: 30px;
 }
 
 .Projects-Section .bsa{
     display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-    margin: 50px 0;
     align-items: center;
-    gap: 40px;
-    margin-bottom: 100px;
-    flex: 8;
+    gap: 50px;
 }
 
 .Projects-Section .bsa .logo{
     flex: 2;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+}
+
+.Projects-Section .bsa .text{
+    flex: 8;
+    margin-bottom: 30px;
 }
 
 /*Section 4 - Contact*/
@@ -293,13 +294,43 @@ nav .right a span{
 }
 
 @media (max-width:750px){
-    /*Section 1 - Hero*/
-        .Hero-Section{
-            flex-direction: column-reverse;
-        }
-        .Hero-Section .headshot img{
-            width: 300px;
-        }
+/*Section 1 - Hero*/
+    .Hero-Section{
+        flex-direction: column-reverse;
+    }
+    .Hero-Section .headshot img{
+        width: 300px;
+    }
+
+/*Section 3 - Projects*/
+    .Projects-Section{
+        text-align: center;
+    }
+
+    .Projects-Section .assurant{
+        flex-direction: column;
+    }
+
+    .Projects-Section .assurant .logo{
+        margin-top: 10px;
+    }
+
+    .Projects-Section .hpcc{
+        flex-direction: column;
+    }
+
+    .Projects-Section .hpcc .logo{
+        margin-top: 10px;
+    }
+
+    .Projects-Section .bsa{
+        flex-direction: column;
+    }
+
+    .Projects-Section .bsa .logo{
+        margin-top: 10px;
+    }
+
 
     }
 
@@ -341,12 +372,6 @@ nav .right a span{
         font-size: 16px;
     }
 
-    /*Section 3 - Projects*/
-
-    .Projects-Section{
-        padding: 0 20px;
-        flex-direction: column;
-    }
 
     /*Section 4 - Contact*/
 
