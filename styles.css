@@ -1,7 +1,7 @@
 :root{
-    --textcolor: #ac3b61;
+    --textcolor: #273951;
     --linkcolor: #123c69;
-    --backgroundcolor: #bab2b5;
+    --backgroundcolor: #f8f8f8;
 }
 
 *{
@@ -165,6 +165,46 @@ nav .right a span{
     border-radius: 2px;
 }
 
+/*Section 2.5 - Experience*/
+.Experience-Section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.Experience-Section h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.Experience-Section .Goodwin {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.Experience-Section .Goodwin .left {
+    width: 33%;
+}
+
+.Experience-Section .Goodwin .right {
+    width: 66%;
+}
+
+.Experience-Section .Tutor {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.Experience-Section .Tutor .left {
+    width: 33%;
+}
+
+.Experience-Section .Tutor .right {
+    width: 66%;
+}
+
 /*Section 3 - Projects*/
 
 .Projects-Section {
@@ -178,19 +218,19 @@ nav .right a span{
     margin-bottom: 30px;
 }
 
-.Projects-Section .assurant{
+.Projects-Section .ksu{
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-.Projects-Section .assurant .logo{
+.Projects-Section .ksu .logo{
     flex: 2;
     display: flex;
     justify-content: center;
 }
 
-.Projects-Section .assurant .text{
+.Projects-Section .ksu .text{
     flex: 8;
     margin-bottom: 30px;
 }
@@ -322,16 +362,49 @@ nav .right a span{
         width: 300px;
     }
 
+/*Section 2.5 - Experience*/
+    .Experience-Section{
+        text-align: center;
+    }
+    .Experience-Section .Goodwin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Experience-Section .Goodwin .left {
+        margin-top: 10px;
+        
+    }
+
+    .Experience-Section .Goodwin .right {
+        margin-top: 10px;
+    }
+
+    .Experience-Section .Tutor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Experience-Section .Tutor .left {
+        margin-top: 10px;
+    }
+    .Experience-Section .Tutor .right {
+        margin-top: 10px;
+    }
+
+
 /*Section 3 - Projects*/
     .Projects-Section{
         text-align: center;
     }
 
-    .Projects-Section .assurant{
+    .Projects-Section .ksu{
         flex-direction: column;
     }
 
-    .Projects-Section .assurant .logo{
+    .Projects-Section .ksu .logo{
         margin-top: 10px;
     }
 
@@ -375,7 +448,12 @@ nav .right a span{
         font-size: 16px;
     }
 
+    /*Section 2.5 - Experience*/
 
+    .Experience-Section{
+        padding: 0 20px;
+    }
+    
     /*Section 4 - Contact*/
 
     .Contact-Section .group{
