@@ -165,7 +165,7 @@ nav .right a span{
     border-radius: 2px;
 }
 
-/*Section 2.5 - Experience*/
+/*Section 1.5 - Experience*/
 .Experience-Section {
     padding: 0 50px;
     margin-bottom: 100px;
@@ -248,6 +248,23 @@ nav .right a span{
 }
 
 .Projects-Section .hpcc .text{
+    flex: 8;
+    margin-bottom: 30px;
+}
+
+.Projects-Section .assurant{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.Projects-Section .assurant .logo{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.Projects-Section .assurant .text{
     flex: 8;
     margin-bottom: 30px;
 }
@@ -362,7 +379,7 @@ nav .right a span{
         width: 300px;
     }
 
-/*Section 2.5 - Experience*/
+/*Section 1.5 - Experience*/
     .Experience-Section{
         text-align: center;
     }
@@ -416,6 +433,14 @@ nav .right a span{
         margin-top: 10px;
     }
 
+    .Projects-Section .assurant{
+        flex-direction: column;
+    }
+
+    .Projects-Section .assurant .logo{
+        margin-top: 10px;
+    }
+
     .Projects-Section .bsa{
         flex-direction: column;
     }
@@ -448,7 +473,7 @@ nav .right a span{
         font-size: 16px;
     }
 
-    /*Section 2.5 - Experience*/
+    /*Section 1.5 - Experience*/
 
     .Experience-Section{
         padding: 0 20px;
