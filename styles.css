@@ -218,6 +218,23 @@ nav .right a span{
     margin-bottom: 30px;
 }
 
+.Projects-Section .nba{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.Projects-Section .nba .logo{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.Projects-Section .nba .text{
+    flex: 8;
+    margin-bottom: 30px;
+}
+
 .Projects-Section .ksu{
     display: flex;
     align-items: center;
@@ -415,6 +432,14 @@ nav .right a span{
 /*Section 3 - Projects*/
     .Projects-Section{
         text-align: center;
+    }
+
+    .Projects-Section .nba{
+        flex-direction: column;
+    }
+
+    .Projects-Section .nba .logo{
+        margin-top: 10px;
     }
 
     .Projects-Section .ksu{
