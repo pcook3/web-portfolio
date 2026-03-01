@@ -177,6 +177,20 @@ nav .right a span{
     margin-bottom: 30px;
 }
 
+.Experience-Section .McKenneys {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.Experience-Section .McKenneys .left {
+    width: 33%;
+}
+
+.Experience-Section .McKenneys .right {
+    width: 66%;
+}
+
 .Experience-Section .Goodwin {
     display: flex;
     gap: 50px;
@@ -400,6 +414,22 @@ nav .right a span{
     .Experience-Section{
         text-align: center;
     }
+
+    .Experience-Section .McKenneys {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Experience-Section .McKenneys .left {
+        margin-top: 10px;
+        
+    }
+
+    .Experience-Section .McKenneys .right {
+        margin-top: 10px;
+    }
+
     .Experience-Section .Goodwin {
         display: flex;
         justify-content: center;
