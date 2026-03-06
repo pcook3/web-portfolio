@@ -541,3 +541,30 @@ nav .right a span{
     }
 
 }
+
+@media (max-width: 400px) {
+
+  body {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  a {
+    padding: 10px 12px;
+    font-size: 0.9rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
